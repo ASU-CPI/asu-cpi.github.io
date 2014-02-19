@@ -1,84 +1,487 @@
+
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print" />
+<!--[if IEMobile 7]><html class="iem7"  lang="en" dir="ltr"><![endif]-->
+<!--[if lte IE 6]><html class="lt-ie9 lt-ie8 lt-ie7"  lang="en" dir="ltr"><![endif]-->
+<!--[if (IE 7)&(!IEMobile)]><html class="lt-ie9 lt-ie8"  lang="en" dir="ltr"><![endif]-->
+<!--[if IE 8]><html class="lt-ie9"  lang="en" dir="ltr"><![endif]-->
+<!--[if (gte IE 9)|(gt IEMobile 7)]><!--><html  lang="en" dir="ltr"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"><!--<![endif]-->
 
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta charset="utf-8" />
+<!-- START /asuthemes/4.1/heads/copp_stdhdr.shtml -->
+<link type="text/css" rel="stylesheet" media="all" href="//www.asu.edu/asuthemes/4.1/css/asu_header.css" />
+<!--[if lte IE 8]>
+<style type="text/css">
+	#asu_hdr.asu_responsive {min-width:938px;}
+  #asu_search_module input.asu_search_box { line-height: 19px; }
+  #asu_universal_nav ul li:hover > ul {top: 25px;}
+</style>
+<![endif]-->
+<!--[if lte IE 7]>
+<style type="text/css">
+  #asu_search_module {height:17px;float:none; text-align:right; top:3px;}
+  .asu_search_selection {position:relative; top:-2px;}
+  #asu_universal_nav ul li.parent ul {display: none;}
+  #asu_universal_nav > ul > li.parent > a {background-image: none; padding-right: 8px;}
+  #asu_universal_nav > ul > li.parent:hover > a {background-image: none; background-color: transparent; color: #903; filter: none;}
+</style>
+</style>
+<![endif]-->
+<!--[if lte IE 6]>
+<style type="text/css">
+  #asu_hdr.asu_hdr_maroon {background: #903;}
+</style>
+<![endif]-->
+
+<!--[if IE 9]>
+<style type="text/css">
+  #asu_universal_nav ul ul {filter: none; box-shadow: 0px 6px 6px 0px #999;}
+  #asu_universal_nav > ul > li.parent:hover > a {filter: none; box-shadow: 6px 0px 6px -6px #999, -6px 0px 6px -6px #999;}
+</style>
+<![endif]-->
+
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var _gaq = _gaq || [];
+_gaq.push(['asu._setAccount', 'UA-2392647-1'], ['asu._setDomainName', '.asu.edu']);
+_gaq.push(['asu._trackPageview']);
+
+
+(function() {
+  var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+  ga.src = 'https://ssl.google-analytics.com/ga.js';
+  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+//--><!]]>
+</script>
+
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var ASUHeader = ASUHeader || {};
+//--><!]]>
+</script>
+
+<script type="text/javascript" src="//www.asu.edu/asuthemes/4.1/js/asu_header.min.js"></script>
+<!-- END /asuthemes/4.1/heads/copp_stdhdr.shtml -->
+<meta property="og:site_name" content="Center for Policy Informatics" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://cpi.asu.edu/" />
+<link rel="shortcut icon" href="https://cpi.asu.edu/sites/default/files/favicon.ico" />
+<link rel="shortlink" href="https://cpi.asu.edu/" />
+<meta name="generator" content="Drupal 7 (http://drupal.org)" />
+<meta content="Welcome to the Center for Policy Informatics." about="/welcome-center-policy-informatics" property="dc:title" />
+<meta about="/welcome-center-policy-informatics" property="sioc:num_replies" content="0" datatype="xsd:integer" />
+<meta property="og:title" content="Center for Policy Informatics" />
+<link rel="canonical" href="https://cpi.asu.edu/" />
+  <title>Center for Policy Informatics</title>
+
+      <meta name="MobileOptimized" content="width">
+    <meta name="HandheldFriendly" content="true">
+    <meta name="viewport" content="width=device-width">
+    <meta http-equiv="cleartype" content="on">
+
+  <link rel="stylesheet" href="https://cpi.asu.edu/sites/default/files/css/css_791YXBaKKm1ORM_7huSKEsIV9tSWq6wmRkERhuXpN6w.css" media="all" />
+<link rel="stylesheet" href="https://cpi.asu.edu/sites/default/files/css/css_uw1UUZTWzxkPs-SNYzTXJqE0hIXMLxuX75dNON8Ihhg.css" media="all" />
+<link rel="stylesheet" href="https://cpi.asu.edu/sites/default/files/css/css_tFft25UaFYlRzHwy-D2Ln48y4sGxYV_wJcDbSE_BhUE.css" media="all" />
+
+<!--[if lt IE 10]>
+<link rel="stylesheet" href="https://cpi.asu.edu/sites/default/files/css/css_47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU.css" media="all" />
+<![endif]-->
+<link rel="stylesheet" href="https://cpi.asu.edu/sites/default/files/css/css_ZaTeID0WdyXxDI5BEu3PflGvo0Pdz_6qAK-eprdgMok.css" media="all" />
+<link rel="stylesheet" href="https://cpi.asu.edu/sites/default/files/css/css_lZwhYYSXIfgrJawl-ypfR070KuEgf5HHHWZNEJbX18Q.css" media="all" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+<script>window.jQuery || document.write("<script src='/profiles/kwall/modules/contrib/jquery_update/replace/jquery/jquery.min.js'>\x3C/script>")</script>
+<script src="https://cpi.asu.edu/sites/default/files/js/js_IkgOrrVZK1UTp2HktvFi5vo1g7b25Muyr5GoySikuic.js"></script>
+<script src="https://cpi.asu.edu/sites/default/files/js/js_Exis8wUODkF8MIJ3_qWS151zv46WukgsyAKlcuHOIo8.js"></script>
+<script src="https://cpi.asu.edu/sites/default/files/js/js_2Hw8WPX37EkprzJCSpA94viPG7rKTxSjbBK7d9jpZuE.js"></script>
+<script>var _gaq = _gaq || [];_gaq.push(["_setAccount", "UA-32077174-1"]);_gaq.push(["_trackPageview"]);(function() {var ga = document.createElement("script");ga.type = "text/javascript";ga.async = true;ga.src = ("https:" == document.location.protocol ? "https://ssl" : "http://www") + ".google-analytics.com/ga.js";var s = document.getElementsByTagName("script")[0];s.parentNode.insertBefore(ga, s);})();</script>
+<script src="https://cpi.asu.edu/sites/default/files/js/js_ij6tQWWv1vXCgg7yaxor8r75QrL-3kb4cJaqyvAHt6M.js"></script>
+<script>jQuery.extend(Drupal.settings, {"basePath":"\u002F", "pathPrefix":"", "ajaxPageState":{"theme":"asucpi_theme", "theme_token":"o7Jffnp93ZOJ9aNz6sPHy_4doQjbl6hQ-PlWRrmONQ0", "js":{"https:\u002F\u002Fajax.googleapis.com\u002Fajax\u002Flibs\u002Fjquery\u002F1.5.2\u002Fjquery.min.js":1, "0":1, "misc\u002Fjquery.once.js":1, "misc\u002Fdrupal.js":1, "sites\u002Fall\u002Fmodules\u002Fcustom\u002Fasucpi_custom\u002Fasucpi_custom.js":1, "profiles\u002Fkwall\u002Flibraries\u002Fcolorbox\u002Fjquery.colorbox-min.js":1, "profiles\u002Fkwall\u002Fmodules\u002Fcontrib\u002Fcolorbox\u002Fjs\u002Fcolorbox.js":1, "profiles\u002Fkwall\u002Fmodules\u002Fcontrib\u002Fcolorbox\u002Fstyles\u002Fdefault\u002Fcolorbox_style.js":1, "sites\u002Fall\u002Flibraries\u002Fsuperfish\u002Fjquery.hoverIntent.minified.js":1, "sites\u002Fall\u002Flibraries\u002Fsuperfish\u002Fjquery.bgiframe.min.js":1, "sites\u002Fall\u002Flibraries\u002Fsuperfish\u002Fsuperfish.js":1, "sites\u002Fall\u002Flibraries\u002Fsuperfish\u002Fsupersubs.js":1, "sites\u002Fall\u002Flibraries\u002Fsuperfish\u002Fsupposition.js":1, "sites\u002Fall\u002Flibraries\u002Fsuperfish\u002Fsftouchscreen.js":1, "profiles\u002Fkwall\u002Fmodules\u002Fcontrib\u002Fsuperfish\u002Fsuperfish.js":1, "profiles\u002Fkwall\u002Fmodules\u002Fcontrib\u002Fviews_slideshow\u002Fjs\u002Fviews_slideshow.js":1, "profiles\u002Fkwall\u002Fmodules\u002Fcontrib\u002Fextlink\u002Fextlink.js":1, "profiles\u002Fkwall\u002Fmodules\u002Fcontrib\u002Fgoogle_analytics\u002Fgoogleanalytics.js":1, "1":1, "sites\u002Fall\u002Fthemes\u002Fcustom\u002Fasucpi-theme\u002Fjs\u002Fjquery.formalize.min.js":1}, "css":{"modules\u002Fsystem\u002Fsystem.base.css":1, "modules\u002Fsystem\u002Fsystem.menus.css":1, "modules\u002Fsystem\u002Fsystem.messages.css":1, "modules\u002Fsystem\u002Fsystem.theme.css":1, "modules\u002Faggregator\u002Faggregator.css":1, "modules\u002Fcomment\u002Fcomment.css":1, "profiles\u002Fkwall\u002Fmodules\u002Fcontrib\u002Fdate\u002Fdate_api\u002Fdate.css":1, "profiles\u002Fkwall\u002Fmodules\u002Fcontrib\u002Fdate\u002Fdate_popup\u002Fthemes\u002Fdatepicker.1.7.css":1, "modules\u002Ffield\u002Ftheme\u002Ffield.css":1, "profiles\u002Fkwall\u002Fmodules\u002Fcontrib\u002Flogintoboggan\u002Flogintoboggan.css":1, "modules\u002Fnode\u002Fnode.css":1, "modules\u002Fsearch\u002Fsearch.css":1, "modules\u002Fuser\u002Fuser.css":1, "profiles\u002Fkwall\u002Fmodules\u002Fcontrib\u002Fviews\u002Fcss\u002Fviews.css":1, "profiles\u002Fkwall\u002Fmodules\u002Fcontrib\u002Fcolorbox\u002Fstyles\u002Fdefault\u002Fcolorbox_style.css":1, "profiles\u002Fkwall\u002Fmodules\u002Fcontrib\u002Fctools\u002Fcss\u002Fctools.css":1, "sites\u002Fall\u002Flibraries\u002Fsuperfish\u002Fcss\u002Fsuperfish.css":1, "sites\u002Fall\u002Flibraries\u002Fsuperfish\u002Fcss\u002Fsuperfish-vertical.css":1, "sites\u002Fall\u002Flibraries\u002Fsuperfish\u002Fcss\u002Fsuperfish-navbar.css":1, "profiles\u002Fkwall\u002Fmodules\u002Fcontrib\u002Fviews_slideshow\u002Fviews_slideshow.css":1, "profiles\u002Fkwall\u002Fmodules\u002Fcontrib\u002Fextlink\u002Fextlink.css":1, "public:\u002F\u002Fctools\u002Fcss\u002Fd41d8cd98f00b204e9800998ecf8427e.css":1, "sites\u002Fall\u002Fthemes\u002Fcustom\u002Fasucpi-theme\u002Fsystem.menus.css":1, "sites\u002Fall\u002Fthemes\u002Fcustom\u002Fasucpi-theme\u002Fcss\u002Fnormalize.css":1, "sites\u002Fall\u002Fthemes\u002Fcustom\u002Fasucpi-theme\u002Fcss\u002Fformalize.css":1, "sites\u002Fall\u002Fthemes\u002Fcustom\u002Fasucpi-theme\u002Fcss\u002Fstyles.css.less":1, "public:\u002F\u002Fcss_injector\u002Fcss_injector_1.css":1}}, "colorbox":{"opacity":"0.85", "current":"{current} of {total}", "previous":"« Prev", "next":"Next »", "close":"Close", "maxWidth":"98%", "maxHeight":"98%", "fixed":true}, "extlink":{"extTarget":"_blank", "extClass":0, "extSubdomains":1, "extExclude":"", "extInclude":"", "extAlert":0, "extAlertText":"This link will take you to an external web site. We are not responsible for their content.", "mailtoClass":0}, "googleanalytics":{"trackOutbound":1, "trackMailto":1, "trackDownload":1, "trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls|xml|z|zip"}});</script>
+      <!--[if lt IE 9]>
+    <script src="/profiles/kwall/themes/contrib/zen/js/html5-respond.js"></script>
     <![endif]-->
-
-    <title>The Center for Policy Informatics by ASU-CPI</title>
   </head>
+<body class="html front not-logged-in one-sidebar sidebar-second page-node page-node- page-node-1 node-type-page" >
+      <p id="skip-link">
+      <a href="#main-menu" class="element-invisible element-focusable">Jump to navigation</a>
+    </p>
+      <div id="background-wrapper">
+<div id="page">
 
-  <body>
-    <header>
-      <div class="inner">
-        <h1>The Center for Policy Informatics</h1>
-        <h2>Leveraging technology to address complex public policy and administration problems</h2>
-        <a href="https://github.com/ASU-CPI" class="button"><small>Follow me on</small>GitHub</a>
-      </div>
-    </header>
+  <header id="header" role="banner">
+      <div class="region region-header">
+    <div id="block-asu-brand-asu-brand-header" class="block block-asu-brand first odd">
 
-    <div id="content-wrapper">
-      <div class="inner clearfix">
-        <section id="main-content">
-          <h3>
-<a name="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages"><span class="octicon octicon-link"></span></a>Welcome to GitHub Pages.</h3>
+      
+  
+<!-- START /asuthemes/4.1/headers/copp_stdhdr.shtml -->
 
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
+<div id="asu_hdr" class=" asu_hdr_gold">
+	<div id="asu_logo">
+    	<a target="_top" href="/" title="College of Public Programs">
+    		<img src="//www.asu.edu/asuthemes/4.1/images/logos/copp_logo.png" alt="College of Public Programs" height="50" width="259" style="margin-top:5px" title="College of Public Programs" />
+    	</a>
+	</div>
+	
+	<img src="//www.asu.edu/asuthemes/4.1/images/logos/copp_logo.png" height="50" width="259" id="asu_print_logo" />
+	
+	<div id="asu_nav_wrapper">
+	
+	  <h2 class="hidden">Sign In / Sign Out</h2>
+	  <ul id="asu_login_module">
+		 	       <li id="asu_hdr_ssi" class="end">
+	         <a target="_top" href="https://weblogin.asu.edu/cgi-bin/login"
+                onmouseover="this.href = ASUHeader.alterLoginHref(this.href);"
+                onfocus="this.href = ASUHeader.alterLoginHref(this.href);"
+                onclick="this.href = ASUHeader.alterLoginHref(this.href);">SIGN IN</a>
+	       </li>
+		 	  </ul>	
+	
+       <!-- Menu shown with screen resolutions > 930px -->
+       <div id="asu_nav_menu" class="toggle_off">
+			<h2 class="hidden asu_nav_toggle"><a href="javascript:toggleASU('asu_nav_menu');">Menu</a></h2>
+			<div id="asu_universal_nav">
+				<ul>
+					<li><a target="_top" href="http://www.asu.edu/">ASU Home</a></li>				
+					<li><a target="_top" href="https://my.asu.edu/">My ASU</a></li>			
+					<li class="parent"><a target="_top" href="http://www.asu.edu/colleges/">Colleges &amp; Schools</a>
+							<ul>
+								<li><a target="_top" class="first" href="http://artsandsciences.asu.edu/" title="Arts and Sciences website">Arts and Sciences</a></li>     
+								<li><a target="_top" href="http://wpcarey.asu.edu/" title="W. P. Carey School of Business Web  and Morrison School of Agribusiness website">Business</a></li>          
+								<li><a target="_top" href="http://herbergerinstitute.asu.edu" title="Herberger Institute for Design and the Arts website">Design and the Arts</a></li>
+								<li><a target="_top" href="http://education.asu.edu/" title="Mary Lou Fulton Teachers College website">Education </a></li>
+								<li><a target="_top" href="http://engineer.asu.edu/" title="Engineering website">Engineering</a></li>
+								<li><a target="_top" href="http://graduate.asu.edu" title="Graduate College website">Graduate</a></li>
+								<li><a target="_top" href="https://chs.asu.edu/" title="Health Solutions website">Health Solutions</a></li>
+								<li><a target="_top" href="http://honors.asu.edu/" title="Barrett, The Honors College website">Honors</a></li>
+								<li><a target="_top" href="http://cronkite.asu.edu" title="Walter Cronkite School of Journalism and Mass Communication website">Journalism</a></li>
+								<li><a target="_top" href="http://www.law.asu.edu/" title="Sandra Day O' Connor College of Law website">Law</a></li>
+								<li><a target="_top" href="http://nursingandhealth.asu.edu/" title="College of Nursing and Health Innovation website">Nursing and Health Innovation</a></li>
+								<!-- li><a href="http://nursingandhealth.asu.edu/nutrition" title="School of Nutrition and Health Promotion website">Nutrition and Health Promotion</a></li -->
+								<li><a target="_top" href="http://copp.asu.edu" title="College of Public Programs website">Public Programs</a></li>
+								<li><a target="_top" href="http://schoolofsustainability.asu.edu" title="School of Sustainability website">Sustainability</a></li>
+								<li><a target="_top" href="http://technology.poly.asu.edu/" title="College of Technology and Innovation website">Technology and Innovation</a></li>
+								<li><a target="_top" href="http://uc.asu.edu/" title="University College website">University (Exploratory)</a></li>
+							</ul>
+						</li>				
+						<li class="parent"><a target="_top" href="http://www.asu.edu/map/">Map &amp; Locations</a>
+							<ul>
+								<li><a target="_top" class="border first" href="http://www.asu.edu/map/">Map</a></li>
+								<li><a target="_top" href="http://campus.asu.edu/tempe/" title="Tempe campus">Tempe</a></li>
+								<li><a target="_top" href="http://campus.asu.edu/west/" title="West campus">West</a></li>
+								<li><a target="_top" href="http://campus.asu.edu/polytechnic/" title="Polytechnic campus">Polytechnic</a></li>
+								<li><a target="_top" href="http://campus.asu.edu/downtown/" title="Downtown Phoenix campus">Downtown Phoenix</a></li>
+								<li><a target="_top" href="http://asuonline.asu.edu/" title="Online and Extended campus">Online and Extended</a></li>
+								<li><a target="_top" class="border" href="http://havasu.asu.edu/">Lake Havasu</a></li>
+								<li><a target="_top" href="http://skysong.asu.edu/">Skysong</a></li>
+								<li><a target="_top" href="http://asuresearchpark.com/">Research Park</a></li>
+								<li><a target="_top" href="http://washingtoncenter.asu.edu/">Washington D.C.</a></li>
+								<li><a target="_top" href="http://wpcarey.asu.edu/mba/china-program/english/">China</a></li>
+							</ul>
+						</li>
+						<li><a target="_top" href="http://www.asu.edu/contactasu/" title="Directory, Index and other info">Contact ASU</a></li>						
+				</ul>
+				
+				<img class="asu_touch" src="//www.asu.edu/asuthemes/4.1/images/ipad_close.gif" alt="" />
+			</div><!-- /#asu_universal_nav -->
+		</div><!-- /#asu_nav_menu -->    
+     </div><!-- /#asu_nav_wrapper -->
 
-<pre><code>$ cd your_repo_root/repo_name
-$ git fetch origin
-$ git checkout gh-pages
-</code></pre>
+          <div id="asu_search" class="toggle_off">
+     <h2 class="hidden asu_search_toggle"><a href="javascript:toggleASU('asu_search');">Search</a></h2>
+     <div id="asu_search_module"><form target="_top" action="https://search.asu.edu/search" method="get" name="gs">
+	<label class="hidden" for="asu_search_box">Search</label>
+			<input name="site" value="default_collection" type="hidden" />
+		<input type="text" name="q" size="32" value="Search ASU" id="asu_search_box" class="asu_search_box" onfocus="ASUHeader.searchFocus(this)" onblur="ASUHeader.searchBlur(this)" /> 
+	<input type="submit" value="Search" title="Search" class="asu_search_button" />
+	<input name="sort" value="date:D:L:d1" type="hidden" /> 
+	<input name="output" value="xml_no_dtd" type="hidden" /> 
+	<input name="ie" value="UTF-8" type="hidden" /> 
+	<input name="oe" value="UTF-8" type="hidden" /> 
+	<input name="client" value="asu_frontend" type="hidden" /> 
+	<input name="proxystylesheet" value="asu_frontend" type="hidden" />
+</form></div><!-- /#asu_search_module -->
+	</div><!-- /#asu_search -->    
+         
+</div><!-- /#asu_hdr -->
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+ASUHeader.default_search_text = "Search ASU";
+ASUHeader.default_search_alttext = "Search ASU";
+if (typeof ASUHeader.signin_callback_url == "undefined") {
+	ASUHeader.signin_callback_url = '';
+}
+if (typeof ASUHeader.signin_url == "undefined") {
+	ASUHeader.signin_url = '';
+}
+if (typeof ASUHeader.signout_url == "undefined") {
+	ASUHeader.signout_url = 'https://webapp4.asu.edu/myasu/Signout';
+}
+if (typeof ASUHeader.user_signedin == "undefined" ||
+		(ASUHeader.user_signedin != false && typeof ASUHeader.user_displayname == "undefined")) {
+	ASUHeader.checkSSOCookie();
+}
+if (ASUHeader.user_signedin == true) {
+	ASUHeader.setSSOLink();
+}if (navigator.userAgent.toLowerCase().indexOf('chrome') > -1) {
+	document.getElementById('asu_hdr').className = document.getElementById('asu_hdr').className+" chrome";
+}
+//--><!]]>
+</script><div style="clear:both;"></div>
+<!-- END /asuthemes/4.1/headers/copp_stdhdr.shtml -->
 
-<p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
+</div><!-- /.block -->
+<div id="block-menu-block-1" class="block block-menu-block even" role="navigation">
 
-<h3>
-<a name="designer-templates" class="anchor" href="#designer-templates"><span class="octicon octicon-link"></span></a>Designer Templates</h3>
+      
+  <div class="menu-block-wrapper menu-block-1 menu-name-main-menu parent-mlid-0 menu-level-1">
+  <ul class="menu"><li class="first leaf menu-mlid-542"><a href="/about">About</a></li>
+<li class="leaf menu-mlid-595"><a href="/people">People</a></li>
+<li class="leaf has-children menu-mlid-545"><a href="/academics" title="">Academics</a></li>
+<li class="leaf has-children menu-mlid-544"><a href="/research">Research</a></li>
+<li class="leaf has-children menu-mlid-834"><a href="http://cpi.asu.edu/cpi-now" title="">CPI Now!</a></li>
+<li class="leaf has-children menu-mlid-546"><a href="/projects">Projects</a></li>
+<li class="last leaf has-children menu-mlid-543"><a href="/network">Network</a></li>
+</ul></div>
 
-<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
+</div><!-- /.block -->
+<div id="block-nodeblock-2" class="block block-nodeblock odd">
 
-<h3>
-<a name="rather-drive-stick" class="anchor" href="#rather-drive-stick"><span class="octicon octicon-link"></span></a>Rather Drive Stick?</h3>
+      
+  <div id="node-2" class="node node-block view-mode-full clearfix" about="/block/logo" typeof="sioc:Item foaf:Document">
 
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
+  
+      
+  
+  <div class="content">
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"> <div><a href="https://cpi.asu.edu/"><img src="https://cpi.asu.edu/sites/default/files/logo.png" border="0" width="250" height="63" /></a></div>
+ </div></div></div>  </div>
 
-<h3>
-<a name="authors-and-contributors" class="anchor" href="#authors-and-contributors"><span class="octicon octicon-link"></span></a>Authors and Contributors</h3>
+  
+  
+</div>
 
-<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
+</div><!-- /.block -->
+<div id="block-nodeblock-6" class="block block-nodeblock last even">
 
-<h3>
-<a name="support-or-contact" class="anchor" href="#support-or-contact"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
+      
+  <div id="node-6" class="node node-block view-mode-full clearfix" about="/block/front-slide" typeof="sioc:Item foaf:Document">
 
-<p>Having trouble with Pages? Check out the documentation at <a href="http://help.github.com/pages">http://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
-        </section>
+  
+      
+  
+  <div class="content">
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"> <h3><span style="color: #de7325; font-size: xx-large;"><br />Leveraging technology to address </span></h3>
+<h3><span style="color: #22b1e6; font-size: xx-large;">complex public policy and </span></h3>
+<h3><span style="color: #22b1e6; font-size: xx-large;"><span style="line-height: 1.3em;">administration problems</span></span></h3>
+<h3><span style="color: #22b1e6; font-size: xx-large;"><a class="button" style="line-height: 1.3em; font-size: 15px;" href="https://cpi.asu.edu/about">Learn More</a></span></h3>
+ </div></div></div>  </div>
 
-        <aside id="sidebar">
+  
+  
+</div>
+
+</div><!-- /.block -->
+  </div><!-- /.region -->
+  </header>
+
+  <div id="main">
+
+    <div id="navigation">
+          </div><!-- /#navigation -->
+
+    <div id="content" class="column" role="main">
+                  <a id="main-content"></a>
+                    <h1 class="title" id="page-title">Welcome to the Center for Policy Informatics.</h1>
+                                          
 
 
-          <p>This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the Architect theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.</p>
-        </aside>
-      </div>
-    </div>
+<article class="node-1 node node-page view-mode-full clearfix" about="/welcome-center-policy-informatics" typeof="foaf:Document">
 
-            <script type="text/javascript">
-            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-          </script>
-          <script type="text/javascript">
-            try {
-              var pageTracker = _gat._getTracker("UA-48254304-1");
-            pageTracker._trackPageview();
-            } catch(err) {}
-          </script>
+  
+  <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"> <p>The Center for Policy Informatics is a translational research hub at Arizona State University that advances the study, teaching, and practice of the nebulous field of policy informatics to address complex public policy and administration problems. <a style="line-height: 1.3em;" href="https://cpi.asu.edu/about"><strong>Learn more</strong>.</a><span style="line-height: 1.3em;"> </span></p>
+ </div></div></div>
+  
+  
+</article><!-- /.node -->
+<!-- block__no_wrapper -->
+<div id="block-nodeblock-3" class="block block-nodeblock even">
+
+      
+  <div id="node-3" class="node node-block view-mode-full clearfix" about="/block/categories" typeof="sioc:Item foaf:Document">
+
+  
+      
+  
+  <div class="content">
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"> <h2 class="block-title"><a href="https://cpi.asu.edu/network">Categories</a></h2>
+<p><span style="line-height: 1.3em;"><br />The Center engages in a variety of interdisciplinary and cross-sector research activities, including:</span></p>
+<ul class="home-icon-list"><li>
+<h3 style="color: #fcb612;"><a href="https://cpi.asu.edu/node/26"><img src="https://cpi.asu.edu/sites/default/files/iconpolicy.png" border="0" width="50" height="50" style="float: left;" /></a><br />Societal Change</h3>
+<p> </p>
+</li>
+<li>
+<h3 style="color: #de7425;"><a href="https://cpi.asu.edu/node/18"><img src="https://cpi.asu.edu/sites/default/files/iconprocess.png" border="0" width="51" height="50" style="float: left;" /></a><br />Policy Analysis</h3>
+<p> </p>
+</li>
+<li>
+<h3 style="color: #da1e2c;"><a href="https://cpi.asu.edu/node/27"><img src="https://cpi.asu.edu/sites/default/files/icongovern.png" border="0" width="50" height="50" style="float: left;" /></a><br />Design Interventions</h3>
+<p> </p>
+</li>
+<li>
+<h3 style="color: #7d277c;"><a href="https://cpi.asu.edu/node/19"><img src="https://cpi.asu.edu/sites/default/files/iconfield.png" border="0" width="50" height="50" style="float: left;" /></a><br />Field Building</h3>
+<p> </p>
+</li>
+</ul></div></div></div>  </div>
+
+  
+  
+</div>
+
+</div><!-- /.block -->
+<div id="block-nodeblock-4" class="block block-nodeblock odd">
+
+      
+  <div id="node-4" class="node node-block view-mode-full clearfix" about="/block/context" typeof="sioc:Item foaf:Document">
+
+  
+      
+  
+  <div class="content">
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"> <h2 class="block-title"><a href="https://cpi.asu.edu/research">Context</a></h2>
+<p><span style="line-height: 1.3em;"><br /></span><span style="line-height: 1.3em;">The interdisciplinary and cross-sector research activities of the Center transcends multiple context areas, including:<br /></span></p>
+<ul class="home-icon-list"><li>
+<h3 style="color: #22b1e6;"><a href="https://cpi.asu.edu/node/28"><img src="https://cpi.asu.edu/sites/default/files/iconhealth.png" border="0" width="50" height="50" style="float: left; border: 0;" /></a><br />Health</h3>
+<p> </p>
+</li>
+<li>
+<h3 style="color: #008abf;"><a href="https://cpi.asu.edu/node/30"><img src="https://cpi.asu.edu/sites/default/files/iconeducation.png" border="0" style="float: left; border: 0;" /></a><br />Education</h3>
+<p> </p>
+</li>
+<li>
+<h3 style="color: #00a69f;"><a href="https://cpi.asu.edu/node/31"><img src="https://cpi.asu.edu/sites/default/files/iconenvironment.png" border="0" width="50" height="50" style="float: left; border: 0;" /></a><br />Environment</h3>
+<p> </p>
+</li>
+<li>
+<h3 style="color: #005f57;"><a href="https://cpi.asu.edu/node/29"><img src="https://cpi.asu.edu/sites/default/files/iconpublic.png" border="0" width="50" height="50" style="float: left; border: 0;" /></a><br />Governance</h3>
+<p> </p>
+</li>
+</ul></div></div></div>  </div>
+
+  
+  
+</div>
+
+</div><!-- /.block -->
+<div id="block-nodeblock-25" class="block block-nodeblock last even">
+
+        <h2 class="block-title">Network</h2>
+    
+  <div id="node-25" class="node node-block view-mode-full clearfix" about="/block/network" typeof="sioc:Item foaf:Document">
+
+  
+      
+  
+  <div class="content">
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"> <p><span style="line-height: 1.3em;"><br /></span><span style="line-height: 1.3em;">The Center for Policy Informatics is comprised of an interdisciplinary, collaborative, and continually expanding network of <strong><a href="https://cpi.asu.edu/people">people</a></strong> and <strong><a href="https://cpi.asu.edu/network">organizations</a>.</strong> The network is connected by their shared interest in advancing the research and practice of understanding and facilitating efficient, effective,and legitimate policy making and implementation in an increasingly complex and interconnected world. We invite you to </span>explore and join the network<a href="https://cpi.asu.edu/network"><span style="line-height: 1.3em;">.</span></a></p>
+ </div></div></div>  </div>
+
+  
+  
+</div>
+
+</div><!-- /.block -->
+<!-- region__no_wrapper -->
+          </div><!-- /#content -->
+
+    
+          <aside class="sidebars">
+                  <section class="region region-sidebar-second column sidebar">
+    <div id="block-nodeblock-5" class="block block-nodeblock first last odd">
+
+        <h2 class="block-title">Featured Projects</h2>
+    
+  <div id="node-5" class="node node-block view-mode-full clearfix" about="/block/featured-projects" typeof="sioc:Item foaf:Document">
+
+  
+      
+  
+  <div class="content">
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"> <p><a href="http://10000solutions.org/"><img src="https://cpi.asu.edu/sites/default/files/images/10ksolutions_0.png" border="0" width="312" height="96" /></a></p>
+<p class="sidebar">A participatory platform that enables the public to host challenges, propose solutions, and take collective action to address social issues. <a href="https://cpi.asu.edu/project/10000-solutions-0"><span style="line-height: 1.2em;">Learn more</span></a></p>
+<p class="sidebar"><span style="line-height: 1.2em;"><img src="https://cpi.asu.edu/sites/default/files/bkgrndblockdivider.png" border="0" width="312" height="8" /></span></p>
+<p><img src="https://cpi.asu.edu/sites/default/files/project_logo_synthetic_empathy.jpg" border="0" width="270" height="97" style="display: block; margin-left: auto; margin-right: auto;" /></p>
+<p class="sidebar">Examines how using computer-mediated environment to facilitate consensus-oriented deliberation among common-pool resource stakeholders can increase their empathy and result in more effective policies. <a href="https://cpi.asu.edu/project/synthetic-empathy"><span style="line-height: 1.2em;">Learn more</span></a></p>
+<p class="sidebar"><span style="line-height: 1.2em;"><img src="https://cpi.asu.edu/sites/default/files/bkgrndblockdivider.png" border="0" width="312" height="8" /></span></p>
+<p><img src="https://cpi.asu.edu/sites/default/files/project_logo_modeling_health_care_collaborations.png" border="0" width="176" height="125" style="display: block; margin-left: auto; margin-right: auto;" /></p>
+<p class="sidebar">Uses modeling to explore the causes of and interventions to improve collaboration. <a href="https://cpi.asu.edu/project/modeling-health-care-collaborations"><span style="line-height: 1.2em;">Learn more</span></a></p>
+<p class="sidebar"><a href="https://cpi.asu.edu/research/health"><img src="https://cpi.asu.edu/sites/default/files/bkgrndblockdivider.png" border="0" width="312" height="8" /></a></p>
+<p class="sidebar"><img src="https://cpi.asu.edu/sites/default/files/projects/logo_the_policy_challenge.png" border="0" width="109" height="77" style="display: block; margin-left: auto; margin-right: auto;" /></p>
+<p class="sidebar">A national competition among the public to develop the best administrative policy proposal for federal agencies to break down barriers to entrepreneurship and enable the use of new technologies in education, clean energy, and healthcare. <a href="https://cpi.asu.edu/project/policy-challenge"><span>Learn more</span></a></p>
+<div><img src="https://cpi.asu.edu/sites/default/files/bkgrndblockdivider.png" border="0" width="312" height="8" /></div>
+ </div></div></div>  </div>
+
+  
+  
+</div>
+
+</div><!-- /.block -->
+  </section><!-- region__sidebar -->
+      </aside><!-- /.sidebars -->
+    
+  </div><!-- /#main -->
+
+  
+
+</div><!-- /#page -->
+</div><!-- /#background-wrapper -->
+
+<div id="footer-wrapper">
+  
+    <footer id="footer" class="region region-footer">
+    <div id="block-asu-brand-asu-brand-footer" class="block block-asu-brand first odd">
+
+      
+  <!-- START FOOTER /asuthemes/3.1/includes/footer.html -->   
+<ul id="asu_footer" class="asu_black_footer">
+  <li><a href="http://www.asu.edu/copyright/">Copyright &amp; Trademark</a></li>
+  <li><a href="http://www.asu.edu/accessibility/">Accessibility</a></li>
+  <li><a href="http://www.asu.edu/privacy/">Privacy</a></li>
+  <li><a href="http://www.asu.edu/emergency/">Emergency</a></li>
+  <li class="no-border"><a href="http://www.asu.edu/contactasu/">Contact ASU</a></li>
+</ul>
+<!-- END FOOTER -->
+
+</div><!-- /.block -->
+<div id="block-nodeblock-7" class="block block-nodeblock last even">
+
+      
+  <div id="node-7" class="node node-block view-mode-full clearfix" about="/block/footer-contact" typeof="sioc:Item foaf:Document">
+
+  
+      
+  
+  <div class="content">
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"> <p style="text-align: right;"><strong>School of Public Affairs | College of Public Programs<br /></strong>411 N Central Avenue, Suite 400 | Phoenix AZ 85004-0687<br />Ph. (602) 496-0450 | F . (602) 496-0950<a href="https://cpi.asu.edu/"><br /></a></p>
+ </div></div></div>  </div>
+
+  
+  
+</div>
+
+</div><!-- /.block -->
+  </footer><!-- region__footer -->
+  
+</div><!-- /#footer-wrapper -->
 
   </body>
 </html>
