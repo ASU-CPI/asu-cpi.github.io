@@ -1,4 +1,4 @@
-ASU-CPI.github.io
+asu-cpi.github.io
 =================
 
 The Center for Policy Informatics
